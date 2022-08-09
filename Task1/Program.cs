@@ -11,11 +11,11 @@
 
 	if (yesNo.ToLower() == "yes")
 	{
-	    int n = InputNumbers("Введите количество элементов массива: ");
+	    int n = InputNumbers("Введите количество строк массива: ");
 	    arrayOfStrings = new string[n];
 	    for (int i = 0; i < arrayOfStrings.Length; i++)
 	    {
-	        Console.Write($" Введите {i + 1} элемент: ");
+	        Console.Write($" Введите {i + 1} строку: ");
 	        arrayOfStrings[i] = Console.ReadLine();
 	    }
 	}
