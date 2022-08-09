@@ -37,7 +37,7 @@
 	FillNewArray(arrayOfStrings, newArrayOfStrings, lengthLimit);
 	
 
-	Console.WriteLine($"{PrintArray(newArrayOfStrings)}");
+	Console.WriteLine($"Результирующий массив {PrintArray(newArrayOfStrings)}");
 	
 
 	
@@ -86,6 +86,5 @@
 	    Console.Write(input);
 	    int output = Convert.ToInt32(Console.ReadLine());
 	
-
 	    return output;
 	}
